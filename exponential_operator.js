@@ -7,3 +7,8 @@ let a = 5;
 let b = Math.pow(a,2);
 
 console.log(b);
+
+const fruits = ["mango", "banana", "apple", "orange"];
+fruits.includes("komola");
+
+console.log(fruits);
