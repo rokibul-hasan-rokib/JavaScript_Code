@@ -9,7 +9,13 @@ class Car{
         console.log(this.model);
         console.log(this.color);
     }
+    age() {
+        const date = new Date();
+        return date.getFullYear() - this.year;
+      }
 }
 
 let car1 = new Car("Fiat", "500", "white");
+const myCar = new Car("Ford", 2014);
 car1.display();
+myCar.age();
